@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Borists' Epic Website</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    body {
+      font-family: "FOT-Kurokane Std (Megamix Modified) EB", Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    header {
+      background-color: #00FF90;
+      padding: 15px;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+    }
+    .main {
+      display: flex;
+      flex-grow: 1;
+    }
+    .sidebar {
+      width: 200px;
+      background-color: #7FFFC5;
+      color: white;
+      display: flex;
+      flex-direction: column;
+    }
+    .sidebar button {
+      font-family: "FOT-Kurokane Std (Megamix Modified) EB", Arial, sans-serif;
+      background: none;
+      border: none;
+      color: black;
+      padding: 15px;
+      text-align: left;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .sidebar button:hover {
+      background-color: #007F46;
+    }
+    .content {
+      flex-grow: 1;
+      padding: 20px;
+    }
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+  
+  <!-- Embed code idk -->
+  <meta property="og:title" content="Borists' Epic Website">
+  <meta property="og:description" content="This is my own personal website!">
+  <meta property="og:image" content="https://borists.neocities.org/images/website embed thing.png">
+  <meta property="og:url" content="https://borists.neocities.org/">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <header>Borists' Epic Website</header>
+  <div class="main">
+    <div class="sidebar">
+      <button onclick="openTab('about')">About me</button>
+      <button onclick="openTab('interests')">My interests</button>
+      <button onclick="openTab('other')">Other stuff</button>
+      <button onclick="openTab('socials')">Socials</button>
+    </div>
+
+    <div class="content">
+      <div id="about" class="tab-content active">
+        <h1>About Me</h1>
+        <p>Hello! I am Borists and I love video games. What else do i say?...</p>
+      </div>
+
+      <div id="interests" class="tab-content">
+        <h1>My Interests</h1>
+        <p>As I said in my about me, I love video games, especially rhythm games, ESPECIALLY the Rhythm Heaven series. Other game series I like is your typical like Sonic the hedgehog, Mario, Minecraft and other stuff.<br>another thing I do is recreate art in SVG/Vector format. Here are some examples:</p>
+        <img src="images/Note.svg" onerror="this.onerror=null; this.src='images/Note.png'" alt="Note, a character from Rhythm Heaven DS" width="160" height="200" title="Note, a character from Rhythm Heaven DS">
+        <p>I am not as advanced at creating vectors, so I can only do simple things</p>
+        <p></p>
+        <p>Another thing I'm doing, Rhythm Heaven related again, is an HD texture pack of Rhythm Heaven Fever for <a href="https://dolphin-emu.org/" target="_blank">the Dolphin Emulator</a>!</p>
+        <img src="images/Rhythm Heaven Fever HD Logo.svg" onerror="this.onerror=null; this.src='images/Rhythm Heaven Fever HD Logo.png'" alt="The Logo for Rhythm Heaven Fever HD" width="626" height="493" title="The Logo for Rhythm Heaven Fever HD">
+        <figcaption style="font-size: 12px; color: gray;">The logo. Thank you Tailx for making it!</figcaption>
+        <p>It will include all textures, manually upscaled by hand, without the use of any AI. If you'd like to check it out, here are links for it:
+        <p><img src="images/github-icon.png" alt="Github" style="width:16px; vertical-align:middle; margin-right:5px;"> <a href="https://github.com/Borists1/RhythmHeavenFeverHD">Github Repository</a></p>
+        <p><img src="images/discord-icon.png" alt="Discord" style="width:16px; vertical-align:middle; margin-right:5px;"> <a href="https://discord.gg/fKjubtkHe2">Discord Server</a> (Join if you'd like to contribute or just get sneak peeks!)</p>
+      </div>
+
+      <div id="other" class="tab-content">
+        <h1>Other Stuff</h1>
+        <p>Testing HTML stuff</p>
+        <p>Rhythm Heaven Logo SVG</p>
+        <img src="images/Rhythm Heaven Logo.svg" alt="Rhythm Heaven Logo">
+      </div>
+      
+      <div id="socials" class="tab-content">
+        <h1>Socials</h1>
+        <p><img src="images/discord-icon.png" alt="Discord" style="width:16px; vertical-align:middle; margin-right:5px;"> <strong>Discord:</strong> borists</p>
+        <p><img src="images/youtube-icon.png" alt="Youtube" style="width:16px; vertical-align:middle; margin-right:5px;"> <strong>Youtube:</strong> <a href="https://www.youtube.com/@Borists-k7j" target="_blank">Borists</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.remove('active');
+      });
+      document.getElementById(tabId).classList.add('active');
+    }
+  </script>
+</body>
+</html>
