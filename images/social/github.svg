@@ -6,35 +6,12 @@
    fill="none"
    version="1.1"
    id="svg1"
-   sodipodi:docname="github.svg"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#505050"
-     bordercolor="#ffffff"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="1"
-     inkscape:deskcolor="#505050"
-     inkscape:zoom="8"
-     inkscape:cx="40"
-     inkscape:cy="61.6875"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg1" />
   <path
      id="path3"
      style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.964376"
-     d="M 98,49 C 98,76.061953 76.061953,98 49,98 23.202724,98 0,76.061953 0,49 0,21.938047 21.938047,13.949519 49,13.949519 c 27.061953,0 49,7.988528 49,35.050481 z"
-     sodipodi:nodetypes="sssss" />
+     d="M 98,49 C 98,76.061953 76.061953,98 49,98 23.202724,98 0,76.061953 0,49 0,21.938047 21.938047,13.949519 49,13.949519 c 27.061953,0 49,7.988528 49,35.050481 z" />
   <g
      clip-path="url(#clip0_730_27126)"
      id="g1">
