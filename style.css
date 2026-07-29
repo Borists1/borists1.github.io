@@ -10,18 +10,18 @@ body {
 
 @font-face {
 	font-family: FOT-Kurokane Std;
-	src: url("FOT-KurokaneStd (Megamix Modified)-EB.otf");
+	src: url("FOT-KurokaneStd (Megamix Modified)-EB.woff2");
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: FOT-Humming Std;
-	src: url("font/FOT-HummingStd-D (Nintendo Modified).otf");
+	src: url("font/FOT-HummingStd-D (Nintendo Modified).woff2");
 }
 
 @font-face {
 	font-family: FOT-Humming Std;
-	src: url("font/FOT-HummingStd-E (Nintendo Modified).otf");
+	src: url("font/FOT-HummingStd-E (Nintendo Modified).woff2");
 	font-weight: bold;
 }
 
