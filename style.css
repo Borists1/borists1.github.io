@@ -4,7 +4,7 @@ body {
 	background-size: 64px;
 	transition: 0s linear;
     transition-property: background-position;
-	animation: scrollBackground 1s linear infinite;
+	animation: scrollBackground 2s linear infinite;
 	background-color: #39f7d6;
 }
 
