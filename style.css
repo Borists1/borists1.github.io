@@ -45,6 +45,18 @@ a {
 	width: 300px;
 }
 
+.pixelate {
+	-ms-interpolation-mode: nearest-neighbor;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+
+.socialIcon {
+	width:32px;
+	vertical-align:middle;
+	margin-right:5px;
+}
+
 .layout {
 	display: flex;
 }
