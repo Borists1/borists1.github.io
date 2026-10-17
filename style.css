@@ -1,13 +1,3 @@
-body {
-    background-image: url(images/bg.svg);
-    background-repeat: repeat;
-	background-size: 64px;
-	transition: 0s linear;
-    transition-property: background-position;
-	animation: scrollBackground 2s linear infinite;
-	background-color: #39f7d6;
-}
-
 @font-face {
 	font-family: FOT-Kurokane Std;
 	src: url("font/FOT-KurokaneStd (Megamix Modified)-EB.woff2");
@@ -25,16 +15,20 @@ body {
 	font-weight: bold;
 }
 
+body {
+	background-image: url(images/bg.svg);
+	background-repeat: repeat;
+	background-size: 64px;
+	transition: 0s linear;
+	transition-property: background-position;
+	animation: scrollBackground 2s linear infinite;
+	background-color: #39f7d6;
+	
+	font-family: FOT-Humming Std;
+}
+
 h1 {
 	font-family: FOT-Kurokane Std;
-}
-
-p {
-	font-family: FOT-Humming Std;
-}
-
-figcaption {
-	font-family: FOT-Humming Std;
 }
 
 a {
