@@ -57,15 +57,29 @@ a {
 	margin-right:5px;
 }
 
+.gameGrid {
+	display:grid;
+	grid-template-columns:repeat(3,400px);
+	justify-content:center;
+	gap:40px;
+	padding:20px;
+	margin-bottom:10px;
+	border:5px dashed black;
+	border-radius:10px;
+	place-items:center;
+}
+
 .layout {
 	display: flex;
 }
 
 @keyframes scrollBackground {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: 64px 64px;
-    }
+	from
+	{
+		background-position: 0 0;
+	}
+	to
+	{
+		background-position: 64px 64px;
+	}
 }
