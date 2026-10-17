@@ -35,6 +35,10 @@ a {
 	text-decoration:none;
 }
 
+figcaption {
+	font-size: 12px;
+}
+
 .sidebar {
 	width: 300px;
 }
