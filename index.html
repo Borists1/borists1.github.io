@@ -1,116 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Borists' Website</title>
-		<link href="style.css" rel="stylesheet" />
-		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-		<link rel="manifest" href="favicon/site.webmanifest">
-	</head>
-	<body>
-		<div class="layout">
-			<div class="sidebar">
-				<img src="images/logo.svg" style="width:200px;margin-left:25px;margin-bottom:10px;" alt="Logo"><br>
-				<a href="" onclick="showSection('about'); return false;"><img src="images/about.svg" onmouseover="this.src='images/about-hover.svg'" onmouseout="this.src='images/about.svg'" style="width:250px" alt="About me"></a><br>
-				<a href="" onclick="showSection('interests'); return false;"><img src="images/interests.svg" onmouseover="this.src='images/interests-hover.svg'" onmouseout="this.src='images/interests.svg'" style="width:250px" alt="My interests"></a><br>
-				<a href="" onclick="showSection('projects'); return false;"><img src="images/projects.svg" onmouseover="this.src='images/projects-hover.svg'" onmouseout="this.src='images/projects.svg'" style="width:250px" alt="My projects"></a><br>
-				<a href="" onclick="showSection('other'); return false;"><img src="images/other.svg" onmouseover="this.src='images/other-hover.svg'" onmouseout="this.src='images/other.svg'" style="width:250px" alt="Other stuff"></a><br>
-				<a href="" onclick="showSection('socials'); return false;"><img src="images/socials.svg" onmouseover="this.src='images/socials-hover.svg'" onmouseout="this.src='images/socials.svg'" style="width:250px" alt="Socials"></a>
-			</div>
-			<div id="about" class="section">
-				<h1>About me</h1>
-				<p>Hello! I am Borists and I'm a person who plays rhythm, retro and all kinds of other games<br>
-				I'm not the best at HTML so sorry if this website looks a bit scuffed...</p>
-			</div>
-			<div id="interests" class="section">
-				<h1>My interests</h1>
-				<p>Here are the games i'm most interested in:</p>
-				<div class="gameGrid">
-					<div style="width:200;text-align:center;">
-						<a href="https://en.wikipedia.org/wiki/Rhythm_Heaven" target="_blank"><img src="images/interests/rh.svg" style="width:200px;" alt="Rhythm Heaven Logo"></a>
-						<figcaption>(obsessed, if you couldn't tell already)</figcaption>
-					</div>
-					<div style="width:400;">
-						<a href="https://en.wikipedia.org/wiki/PaRappa_the_Rapper" target="_blank"><img src="images/interests/parappa.svg" style="width:400px;" alt="PaRappa The Rapper Logo"></a>
-					</div>
-					<div style="width:400;">
-						<p>... and many other rhythm games!</p>
-					</div>
-				</div>
-				<p>(Click on the logos for more information about the games)</p>
-				<div class="gameGrid">
-					<div style="width:400;text-align:center;background-color: #000000;color:white;">
-						<a href="https://undertale.com" target="_blank"><img src="images/interests/undertale.svg" style="width:400px;" alt="Undertale Logo"></a><br>
-						<a href="https://deltarune.com" target="_blank"><img src="images/interests/deltarune.svg" style="width:400px;" alt="Deltarune Logo"></a>
-						<p>(very cool RPGs)</p>
-					</div>
-					<div style="width:400;">
-						<a href="https://www.ace-attorney.com/" target="_blank"><img src="images/interests/aceattorney.png" style="width: 400px;" alt="Ace Attorney Logo"></a>
-						<span style="justify-content: flex-end; display: flex; white-space: nowrap; bottom: 8px; right: 0px; color: white; -webkit-text-stroke: 3px black; paint-order: stroke fill; gap: 5px;"><figcaption>and honorable mention to  </figcaption><a href="https://www.capcom-games.com/ghosttrick/" target="_blank"><img src="images/interests/ghosttrick.png" style="width: 150px; transform: translateY(-5px); filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);" alt="Ghost Trick Logo"></a></span>
-					</div>
-					<div style="width:400;">
-						<a href="https://en.wikipedia.org/wiki/OneShot" target="_blank"><img src="images/interests/oneshot.png" style="width:400px;" alt="OneShot Logo"></a>
-					</div>
-					<div class="pixelate" style="width:400;text-align:center;background-color: #000000;color:white;">
-						<a href="https://www.cavestory.one/game-info/about-cave-story.php" target="_blank"><img src="images/interests/cavestory.png" style="width:400px;" alt="Cave Story Logo"></a>
-					</div>
-					<div style="width:400;">
-						<a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog" target="_blank"><img src="images/interests/sonic.svg" style="width:400px;" alt="Sonic the Hedgehog Logo"></a>
-					</div>
-					<div style="width:400;">
-						<a href="https://en.wikipedia.org/wiki/Super_Mario" target="_blank"><img src="images/interests/mario.svg" style="width:400px;" alt="Mario Logo"></a>
-					</div>
-				</div>
-				<p>I can also trace images with vector graphics:<p>
-				<img src="images/interests/Note.svg" style="width:200px;" alt="Note, Rhythm Heaven character">
-				<figcaption>I don't really have anything else to show lol</figcaption>
-				<p>Unfortunately, I'm not good enough at creating my own artworks.<p>
-			</div>
-			<div id="projects" class="section">
-				<h1>My projects</h1>
-				<p>These are my projects that I'm currently working on:</p>
-				<img src="images/projects/RHFHD.svg" style="width:400px;" alt="Rhythm Heaven Fever HD Logo">
-				<figcaption>Thank you <a href="https://rhwiki.net/wiki/User:Tailx" target="_blank">Tailx</a> for making the logo :D</figcaption>
-				<p><b>Rhythm Heaven Fever HD</b>: A project which has a goal to manually redraw every Rhythm Heaven Fever texture to 4K, for the Dolphin emulator!<br>
-				It will include all textures, manually upscaled by hand, without the use of any AI. <small>(I hate AI)</small> If you'd like to check it out, here are links for it:<p>
-				<p><img src="images/social/github.svg" alt="Github" class="socialIcon"><a href="https://github.com/Borists1/RhythmHeavenFeverHD">Github Repository</a></p>
-				<p><img src="images/social/discord.svg" alt="Discord" class="socialIcon"><a href="https://discord.gg/fKjubtkHe2">Discord Server</a> (Join if you'd like to contribute or just get sneak peeks!)</p>
-			</div>
-			<div id="other" class="section">
-				<h1>Other Stuff</h1>
-				<p>Here, I test certain stuff with HTML. If I think it's cool enough, I might update the site with it.</p>
-				<p><small><i>Nothing for now...</i></small></p>
-			</div>
-			<div id="socials" class="section">
-				<h1>Socials</h1>
-				<p>Here are my various socials:</p>
-				<p><img src="images/social/discord.svg" alt="Discord" class="socialIcon">Discord: borists</p>
-				<p><img src="images/social/youtube.svg" alt="Youtube" class="socialIcon"><a href="https://www.youtube.com/@Borists-k7j" target="_blank">Youtube</a></p>
-				<p><img src="images/social/bluesky.svg" alt="Bluesky" class="socialIcon"><a href="https://bsky.app/profile/borists.bsky.social" target="_blank">Bluesky</a></p>
-				<p><img src="images/social/github.svg" alt="Github" class="socialIcon"><a href="https://github.com/Borists1" target="_blank">Github</a></p>
-				<p><img src="images/social/switch.svg" alt="Nintendo Switch Friend Code" class="socialIcon">Nintendo Switch friend code: SW-3802-3800-6228</p>
-				<p><img src="images/social/steam.svg" alt="Steam" class="socialIcon"><a href="https://steamcommunity.com/id/Borists" target="_blank">Steam</a></p>
-				<p><img src="images/social/retroachievements.png" alt="RetroAchievements" class="socialIcon"><a href="https://retroachievements.org/user/Borists" target="_blank">RetroAchievements</a></p>
-				<p><img src="images/social/gamebanana.png" alt="GameBanana" class="socialIcon"><a href="https://gamebanana.com/members/1763748" target="_blank">GameBanana</a></p>
-				<p><img src="images/social/roblox.svg" alt="Roblox" class="socialIcon"><a href="https://www.roblox.com/users/286634383/profile" target="_blank">Roblox</a></p>
-			</div>
-		</div>
-		
-		<!-- Scripts -->
-		<script>
-			function showSection(sectionId) {
-				let sections = document.querySelectorAll(".section");
-	
-				sections.forEach(section => {
-					section.style.display = "none";
-				});
-	
-				document.getElementById(sectionId).style.display = "block";
-			}
 
-			showSection("about");
-		</script>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<title>Borists' Website</title>
+	<link href="style.css" rel="stylesheet" />
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+</head>
+
+<body>
+	<div class="layout">
+		<div class="sidebar">
+			<img src="images/logo.svg" style="width:200px;margin-left:25px;margin-bottom:10px;" alt="Logo"><br>
+			<a href="" onclick="showSection('about'); return false;"><img src="images/about.svg" onmouseover="this.src='images/about-hover.svg'" onmouseout="this.src='images/about.svg'" style="width:250px" alt="About me"></a><br>
+			<a href="" onclick="showSection('interests'); return false;"><img src="images/interests.svg" onmouseover="this.src='images/interests-hover.svg'" onmouseout="this.src='images/interests.svg'" style="width:250px" alt="My interests"></a><br>
+			<a href="" onclick="showSection('projects'); return false;"><img src="images/projects.svg" onmouseover="this.src='images/projects-hover.svg'" onmouseout="this.src='images/projects.svg'" style="width:250px" alt="My projects"></a><br>
+			<a href="" onclick="showSection('other'); return false;"><img src="images/other.svg" onmouseover="this.src='images/other-hover.svg'" onmouseout="this.src='images/other.svg'" style="width:250px" alt="Other stuff"></a><br>
+			<a href="" onclick="showSection('socials'); return false;"><img src="images/socials.svg" onmouseover="this.src='images/socials-hover.svg'" onmouseout="this.src='images/socials.svg'" style="width:250px" alt="Socials"></a>
+		</div>
+		<div id="about" class="section">
+			<h1>About me</h1>
+			<p>Hello! I am Borists and I'm a person who plays rhythm, retro and all kinds of other games<br>
+				I'm not the best at HTML so sorry if this website looks a bit scuffed...</p>
+		</div>
+		<div id="interests" class="section">
+			<h1>My interests</h1>
+			<p>Here are the games i'm most interested in:</p>
+			<div class="gameGrid">
+				<div style="width:200;text-align:center;">
+					<a href="https://en.wikipedia.org/wiki/Rhythm_Heaven" target="_blank"><img src="images/interests/rh.svg" style="width:200px;" alt="Rhythm Heaven Logo"></a>
+					<figcaption>(obsessed, if you couldn't tell already)</figcaption>
+				</div>
+				<div style="width:400;">
+					<a href="https://en.wikipedia.org/wiki/PaRappa_the_Rapper" target="_blank"><img src="images/interests/parappa.svg" style="width:400px;" alt="PaRappa The Rapper Logo"></a>
+				</div>
+				<div style="width:400;">
+					<p>... and many other rhythm games!</p>
+				</div>
+			</div>
+			<p>(Click on the logos for more information about the games)</p>
+			<div class="gameGrid">
+				<div style="width:400;text-align:center;background-color: #000000;color:white;">
+					<a href="https://undertale.com" target="_blank"><img src="images/interests/undertale.svg" style="width:400px;" alt="Undertale Logo"></a><br>
+					<a href="https://deltarune.com" target="_blank"><img src="images/interests/deltarune.svg" style="width:400px;" alt="Deltarune Logo"></a>
+					<p>(very cool RPGs)</p>
+				</div>
+				<div style="width:400;">
+					<a href="https://www.ace-attorney.com/" target="_blank"><img src="images/interests/aceattorney.png" style="width: 400px;" alt="Ace Attorney Logo"></a>
+					<span style="justify-content: flex-end; display: flex; white-space: nowrap; bottom: 8px; right: 0px; color: white; -webkit-text-stroke: 3px black; paint-order: stroke fill; gap: 5px;">
+						<figcaption>and honorable mention to </figcaption><a href="https://www.capcom-games.com/ghosttrick/" target="_blank"><img src="images/interests/ghosttrick.png" style="width: 150px; transform: translateY(-5px); filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);" alt="Ghost Trick Logo"></a>
+					</span>
+				</div>
+				<div style="width:400;">
+					<a href="https://en.wikipedia.org/wiki/OneShot" target="_blank"><img src="images/interests/oneshot.png" style="width:400px;" alt="OneShot Logo"></a>
+				</div>
+				<div class="pixelate" style="width:400;text-align:center;background-color: #000000;color:white;">
+					<a href="https://www.cavestory.one/game-info/about-cave-story.php" target="_blank"><img src="images/interests/cavestory.png" style="width:400px;" alt="Cave Story Logo"></a>
+				</div>
+				<div style="width:400;">
+					<a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog" target="_blank"><img src="images/interests/sonic.svg" style="width:400px;" alt="Sonic the Hedgehog Logo"></a>
+				</div>
+				<div style="width:400;">
+					<a href="https://en.wikipedia.org/wiki/Super_Mario" target="_blank"><img src="images/interests/mario.svg" style="width:400px;" alt="Mario Logo"></a>
+				</div>
+			</div>
+			<p>I can also trace images with vector graphics:</p>
+				<img src="images/interests/Note.svg" style="width:200px;" alt="Note, Rhythm Heaven character">
+			<figcaption>I don't really have anything else to show lol</figcaption>
+			<p>Unfortunately, I'm not good enough at creating my own artworks.</p>
+		</div>
+		<div id="projects" class="section">
+			<h1>My projects</h1>
+			<p>These are my projects that I'm currently working on:</p>
+			<img src="images/projects/RHFHD.svg" style="width:400px;" alt="Rhythm Heaven Fever HD Logo">
+			<figcaption>Thank you <a href="https://rhwiki.net/wiki/User:Tailx" target="_blank">Tailx</a> for making the logo :D</figcaption>
+			<p>
+				<b>Rhythm Heaven Fever HD</b>: A project which has a goal to manually redraw every Rhythm Heaven Fever
+				texture in high quality, for the Dolphin emulator!<br>
+				It will include all textures, manually upscaled by hand, without the use of any AI. <small>(I hate AI)</small> If you'd like to check it out, here are links for it:
+			</p>
+			<p><img src="images/social/github.svg" alt="Github" class="socialIcon"><a href="https://github.com/Borists1/RhythmHeavenFeverHD">Github Repository</a></p>
+			<p><img src="images/social/discord.svg" alt="Discord" class="socialIcon"><a href="https://discord.gg/fKjubtkHe2">Discord Server</a> (Join if you'd like to contribute or just get sneak peeks!)</p>
+		</div>
+		<div id="other" class="section">
+			<h1>Other Stuff</h1>
+			<p>Here, I test certain stuff with HTML. If I think it's cool enough, I might update the site with it.</p>
+			<p><figcaption><i>Nothing for now...</i></figcaption></p>
+		</div>
+		<div id="socials" class="section">
+			<h1>Socials</h1>
+			<p>Here are my various socials:</p>
+			<p><img src="images/social/discord.svg" alt="Discord" class="socialIcon">Discord: borists</p>
+			<p><img src="images/social/youtube.svg" alt="Youtube" class="socialIcon"><a href="https://www.youtube.com/@Borists-k7j" target="_blank">Youtube</a></p>
+			<p><img src="images/social/bluesky.svg" alt="Bluesky" class="socialIcon"><a href="https://bsky.app/profile/borists.bsky.social" target="_blank">Bluesky</a></p>
+			<p><img src="images/social/github.svg" alt="Github" class="socialIcon"><a href="https://github.com/Borists1" target="_blank">Github</a></p>
+			<p><img src="images/social/switch.svg" alt="Nintendo Switch Friend Code" class="socialIcon">Nintendo Switch friend code: SW-3802-3800-6228</p>
+			<p><img src="images/social/steam.svg" alt="Steam" class="socialIcon"><a href="https://steamcommunity.com/id/Borists" target="_blank">Steam</a></p>
+			<p><img src="images/social/retroachievements.png" alt="RetroAchievements" class="socialIcon"><a href="https://retroachievements.org/user/Borists" target="_blank">RetroAchievements</a></p>
+			<p><img src="images/social/gamebanana.png" alt="GameBanana" class="socialIcon"><a href="https://gamebanana.com/members/1763748" target="_blank">GameBanana</a></p>
+			<p><img src="images/social/roblox.svg" alt="Roblox" class="socialIcon"><a href="https://www.roblox.com/users/286634383/profile" target="_blank">Roblox</a></p>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script>
+		function showSection(sectionId) {
+			let sections = document.querySelectorAll(".section");
+
+			sections.forEach(section => {
+				section.style.display = "none";
+			});
+
+			document.getElementById(sectionId).style.display = "block";
+		}
+
+		showSection("about");
+	</script>
+</body>
+
 </html>

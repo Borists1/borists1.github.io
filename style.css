@@ -23,7 +23,7 @@ body {
 	transition-property: background-position;
 	animation: scrollBackground 2s linear infinite;
 	background-color: #39f7d6;
-	
+
 	font-family: FOT-Humming Std;
 }
 
@@ -32,7 +32,7 @@ h1 {
 }
 
 a {
-	text-decoration:none;
+	text-decoration: none;
 }
 
 figcaption {
@@ -50,21 +50,21 @@ figcaption {
 }
 
 .socialIcon {
-	width:32px;
-	vertical-align:middle;
-	margin-right:5px;
+	width: 32px;
+	vertical-align: middle;
+	margin-right: 5px;
 }
 
 .gameGrid {
-	display:grid;
-	grid-template-columns:repeat(3,400px);
-	justify-content:center;
-	gap:40px;
-	padding:20px;
-	margin-bottom:10px;
-	border:5px dashed black;
-	border-radius:10px;
-	place-items:center;
+	display: grid;
+	grid-template-columns: repeat(3, 400px);
+	justify-content: center;
+	gap: 40px;
+	padding: 20px;
+	margin-bottom: 10px;
+	border: 5px dashed black;
+	border-radius: 10px;
+	place-items: center;
 }
 
 .layout {
@@ -72,12 +72,11 @@ figcaption {
 }
 
 @keyframes scrollBackground {
-	from
-	{
+	from {
 		background-position: 0 0;
 	}
-	to
-	{
+
+	to {
 		background-position: 64px 64px;
 	}
 }
